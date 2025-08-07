@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Github, Twitter, Mail, ExternalLink, Heart } from 'lucide-react'
+import { Github, Twitter, Mail, ExternalLink, Heart, Coffee } from 'lucide-react'
 import Image from 'next/image'
 
 export default function Footer() {
@@ -239,6 +239,31 @@ export default function Footer() {
             <Heart className="w-4 h-4 text-red-500 mx-1" />
             <span>制作 • 开源免费</span>
           </div>
+        </motion.div>
+
+        {/* Sponsor Support */}
+        <motion.div 
+          className="mt-8 text-center"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: 0.65 }}
+        >
+          <motion.a
+            href="https://afdian.com/a/snowywar"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-pink-500 to-rose-500 hover:from-pink-600 hover:to-rose-600 text-white rounded-full font-medium shadow-lg hover:shadow-xl transition-all duration-300 text-sm"
+            whileHover={{ scale: 1.05, y: -2 }}
+            whileTap={{ scale: 0.95 }}
+          >
+            <Coffee className="w-4 h-4 mr-2" />
+            <span>赞助支持开发</span>
+            <ExternalLink className="w-3 h-3 ml-2 opacity-70" />
+          </motion.a>
+          <p className="text-gray-500 dark:text-gray-400 text-xs mt-3">
+            您的支持是我们持续改进的动力 ❤️
+          </p>
         </motion.div>
 
         {/* Security Badge */}

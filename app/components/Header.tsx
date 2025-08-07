@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
-import { Menu, X, Download, Github, Globe } from 'lucide-react'
+import { Menu, X, Download, Github, Globe, Coffee } from 'lucide-react'
 import Image from 'next/image'
 import { useLanguage } from '@/contexts/LanguageContext'
 
@@ -106,6 +106,18 @@ export default function Header() {
             >
               <Github className="w-5 h-5" />
             </motion.a>
+
+            <motion.a
+              href="https://afdian.com/a/snowywar"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-pink-500 hover:text-pink-600 dark:text-pink-400 dark:hover:text-pink-300 transition-colors"
+              whileHover={{ scale: 1.1, y: -2 }}
+              whileTap={{ scale: 0.95 }}
+              title="赞助支持"
+            >
+              <Coffee className="w-5 h-5" />
+            </motion.a>
             
             <motion.a
               href="https://github.com/jiayuqi7813/SecureVault/releases/"
@@ -163,6 +175,18 @@ export default function Header() {
                 <Globe className="w-4 h-4" />
                 <span className="text-sm font-medium">{locale === 'zh' ? 'Switch to English' : '切换到中文'}</span>
               </motion.button>
+
+              <motion.a
+                href="https://afdian.com/a/snowywar"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full flex items-center justify-center space-x-2 text-white bg-gradient-to-r from-pink-500 to-rose-500 hover:from-pink-600 hover:to-rose-600 px-6 py-3 rounded-lg font-medium shadow-lg hover:shadow-xl transition-all duration-300"
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+              >
+                <Coffee className="w-4 h-4" />
+                <span>赞助支持</span>
+              </motion.a>
               
               <motion.a
                 href="https://github.com/jiayuqi7813/SecureVault/releases/"
