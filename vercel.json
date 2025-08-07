@@ -1,21 +1,4 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/next"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/robots.txt",
-      "dest": "/app/robots.txt"
-    },
-    {
-      "src": "/sitemap.xml",
-      "dest": "/app/sitemap.ts"
-    }
-  ],
   "headers": [
     {
       "source": "/(.*)",
@@ -64,12 +47,12 @@
   "redirects": [
     {
       "source": "/github",
-      "destination": "https://github.com/your-org/private-drawer",
+      "destination": "https://github.com/jiayuqi7813/SecureVault",
       "permanent": false
     },
     {
       "source": "/releases",
-      "destination": "https://github.com/your-org/private-drawer/releases",
+      "destination": "https://github.com/jiayuqi7813/SecureVault/releases",
       "permanent": false
     }
   ],
