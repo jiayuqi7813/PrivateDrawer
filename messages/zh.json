@@ -92,6 +92,41 @@
     ],
     "downloadBtn": "立即下载"
   },
+  "screenshots": {
+    "badge": "应用截图",
+    "title": "直观体验",
+    "description": "通过实际应用界面，深入了解SecureVault的强大功能和优雅设计",
+    "fileManager": {
+      "title": "文件管理界面",
+      "description": "清晰直观的文件列表，支持多种格式预览和智能分类管理"
+    },
+    "folderView": {
+      "title": "文件夹视图",
+      "description": "层级清晰的文件夹结构，轻松组织和查找您的加密文件"
+    },
+    "gridView": {
+      "title": "网格预览",
+      "description": "美观的网格布局，直观展示文件缩略图和详细信息"
+    },
+    "security": {
+      "title": "安全登录",
+      "description": "Touch ID生物识别登录，提供银行级安全保护和便捷体验"
+    },
+    "features": {
+      "security": {
+        "title": "军用级加密",
+        "description": "AES-256加密算法，确保您的数据绝对安全"
+      },
+      "preview": {
+        "title": "实时预览",
+        "description": "支持多种文件格式的安全预览功能"
+      },
+      "management": {
+        "title": "智能管理",
+        "description": "标签分类、快速搜索，让文件管理更高效"
+      }
+    }
+  },
   "cta": {
     "title": "开始保护您的私密文件",
     "subtitle": "加入超过50,000名用户的信任选择，体验最安全的文件管理方式",

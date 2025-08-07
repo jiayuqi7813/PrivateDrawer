@@ -92,6 +92,41 @@
     ],
     "downloadBtn": "Download Now"
   },
+  "screenshots": {
+    "badge": "App Screenshots",
+    "title": "Visual Experience",
+    "description": "Explore SecureVault's powerful features and elegant design through actual application interfaces",
+    "fileManager": {
+      "title": "File Management Interface",
+      "description": "Clean and intuitive file list with multi-format preview and smart categorization"
+    },
+    "folderView": {
+      "title": "Folder View",
+      "description": "Clear hierarchical folder structure for easy organization and search of encrypted files"
+    },
+    "gridView": {
+      "title": "Grid Preview",
+      "description": "Beautiful grid layout displaying file thumbnails and detailed information"
+    },
+    "security": {
+      "title": "Security Login",
+      "description": "Touch ID biometric login providing bank-level security protection and convenient experience"
+    },
+    "features": {
+      "security": {
+        "title": "Military-Grade Encryption",
+        "description": "AES-256 encryption algorithm ensures absolute data security"
+      },
+      "preview": {
+        "title": "Real-Time Preview",
+        "description": "Secure preview functionality for multiple file formats"
+      },
+      "management": {
+        "title": "Smart Management",
+        "description": "Tag categorization and quick search for more efficient file management"
+      }
+    }
+  },
   "cta": {
     "title": "Start Protecting Your Private Files",
     "subtitle": "Join over 50,000 users' trusted choice and experience the most secure file management",
