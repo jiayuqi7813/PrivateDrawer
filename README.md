@@ -1,6 +1,6 @@
-# 私密抽屉官方网站
+# SecureVault 官方网站
 
-这是私密抽屉（Private Drawer）的官方落地页网站，采用 Next.js 14 和 Tailwind CSS 构建。
+这是 SecureVault 的官方落地页网站，采用 Next.js 14 和 Tailwind CSS 构建。
 
 ## 🚀 特性
 
@@ -227,4 +227,4 @@ theme: {
 
 ---
 
-**注意**: 这是私密抽屉应用的官方网站源码，与主应用程序分离维护。
+**注意**: 这是 SecureVault 应用的官方网站源码，与主应用程序分离维护。
