@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+
+# 允许搜索引擎抓取所有页面
+Allow: /features
+Allow: /download
+Allow: /docs
+Allow: /support
+Allow: /privacy
+Allow: /terms
+
+# 禁止抓取的路径
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+
+# 站点地图
+Sitemap: https://private-drawer.vercel.app/sitemap.xml
+
+# 抓取延迟
+Crawl-delay: 1

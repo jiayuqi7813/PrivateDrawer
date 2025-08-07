@@ -1,0 +1,31 @@
+{
+  "name": "私密抽屉 - 专业级macOS文件加密管理应用",
+  "short_name": "私密抽屉",
+  "description": "采用AES-256军用级加密，支持Touch ID/Face ID，为您的重要文件提供银行级安全保护。",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png", 
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#0ea5e9",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "orientation": "portrait",
+  "start_url": "/",
+  "scope": "/",
+  "lang": "zh-CN",
+  "dir": "ltr",
+  "categories": ["security", "productivity", "utilities"]
+}

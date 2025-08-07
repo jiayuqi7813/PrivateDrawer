@@ -1,0 +1,20 @@
+
+> private-drawer-landing@1.0.0 dev
+> next dev
+
+   ▲ Next.js 14.0.4
+   - Local:        http://localhost:3000
+   - Experiments (use at your own risk):
+     · typedRoutes
+
+ ✓ Ready in 1954ms
+ ⚠ Your project has `@next/font` installed as a dependency, please use the built-in `next/font` instead. The `@next/font` package will be removed in Next.js 14. You can migrate by running `pnpm dlx @next/codemod@latest built-in-next-font .`. Read more: https://nextjs.org/docs/messages/built-in-next-font
+ ✓ Compiled /middleware in 78ms (93 modules)
+ ○ Compiling /[locale] ...
+ ✓ Compiled /[locale] in 2.2s (1204 modules)
+ ✓ Compiled in 40ms (568 modules)
+Invalid locale: undefined. Available: zh, en
+ ✓ Compiled in 27ms (93 modules)
+ ✓ Compiled in 33ms (93 modules)
+ ✓ Compiled in 20ms (93 modules)
+[?25h

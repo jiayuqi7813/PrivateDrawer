@@ -1,0 +1,106 @@
+{
+  "nav": {
+    "features": "功能特性",
+    "testimonials": "用户评价", 
+    "download": "下载",
+    "docs": "文档",
+    "support": "支持"
+  },
+  "hero": {
+    "award": "macOS 最佳安全应用 2024",
+    "title": "保护您的",
+    "titleHighlight": "私密文件",
+    "subtitle": "SecureVault采用 AES-256 军用级加密，为macOS用户提供专业级文件安全保护。支持 Touch ID / Face ID，让安全变得简单优雅。",
+    "downloadBtn": "免费下载",
+    "demoBtn": "观看演示"
+  },
+  "stats": {
+    "users": "活跃用户",
+    "security": "安全性评级", 
+    "protected": "文件已保护",
+    "rating": "用户评分"
+  },
+  "features": {
+    "title": "为什么选择SecureVault？",
+    "subtitle": "我们不仅仅是一款文件加密工具，更是您数字生活的安全守护者",
+    "encryption": {
+      "title": "AES-256 军用级加密",
+      "description": "采用最高级别的加密标准，确保您的文件绝对安全，即使是政府级别的加密技术。",
+      "highlight": "银行级安全"
+    },
+    "biometric": {
+      "title": "Touch ID / Face ID 支持", 
+      "description": "无缝集成macOS生物识别技术，一触即达，安全便捷的访问体验。",
+      "highlight": "生物识别"
+    },
+    "autoLock": {
+      "title": "自动锁定保护",
+      "description": "智能监测用户活动，可配置的自动锁定时间，防止未经授权的访问。",
+      "highlight": "智能防护"
+    },
+    "cloudBackup": {
+      "title": "iCloud 安全备份",
+      "description": "加密数据云端备份，支持多设备同步，永不丢失重要文件。",
+      "highlight": "云端同步"
+    },
+    "preview": {
+      "title": "隐私预览系统",
+      "description": "安全预览各种文件格式，无需解密到临时文件，保护隐私不泄露。",
+      "highlight": "安全预览"
+    },
+    "performance": {
+      "title": "极速性能优化",
+      "description": "原生Swift开发，充分利用Apple Silicon性能，快速响应每一个操作。",
+      "highlight": "原生性能"
+    }
+  },
+  "testimonials": {
+    "title": "用户真实评价",
+    "subtitle": "看看其他用户如何评价SecureVault",
+    "user1": {
+      "name": "李先生",
+      "role": "软件工程师",
+      "content": "作为开发者，我需要保护源代码和客户数据。SecureVault的AES-256加密让我非常放心，Touch ID支持也很便捷。"
+    },
+    "user2": {
+      "name": "王女士", 
+      "role": "财务经理",
+      "content": "公司的财务文档都存储在SecureVault中，加密备份功能确保数据安全。界面设计很专业，操作简单。"
+    },
+    "user3": {
+      "name": "张教授",
+      "role": "大学教授", 
+      "content": "研究资料和学术论文都很重要，SecureVault的标签管理和搜索功能让我的文件井井有条。"
+    }
+  },
+  "pricing": {
+    "title": "专业商业产品",
+    "subtitle": "企业级文件安全解决方案，专业技术支持",
+    "productName": "SecureVault",
+    "price": "商业授权",
+    "priceDesc": "企业级解决方案",
+    "features": [
+      "无限文件存储",
+      "AES-256 加密",
+      "Touch ID / Face ID",
+      "iCloud 备份同步",
+      "智能标签管理",
+      "全格式预览",
+      "操作日志记录",
+      "专业技术支持",
+      "定期安全更新"
+    ],
+    "downloadBtn": "立即下载"
+  },
+  "cta": {
+    "title": "开始保护您的私密文件",
+    "subtitle": "加入超过50,000名用户的信任选择，体验最安全的文件管理方式",
+    "downloadBtn": "macOS 下载",
+    "githubBtn": "查看详情",
+    "requirements": "系统要求：macOS 14.0 或更高版本 • 商业产品 • 专业支持"
+  },
+  "common": {
+    "appName": "SecureVault",
+    "appSubtitle": "专业文件加密"
+  }
+}

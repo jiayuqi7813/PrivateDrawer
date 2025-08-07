@@ -1,0 +1,111 @@
+{
+  "nav": {
+    "features": "Features",
+    "testimonials": "Testimonials",
+    "download": "Download", 
+    "docs": "Docs",
+    "support": "Support"
+  },
+  "hero": {
+    "award": "Best macOS Security App 2024",
+    "title": "Protect Your",
+    "titleHighlight": "Private Files",
+    "subtitle": "SecureVault uses AES-256 military-grade encryption to provide professional file security protection for macOS users. Support for Touch ID / Face ID makes security simple and elegant.",
+    "downloadBtn": "Free Download",
+    "demoBtn": "Watch Demo"
+  },
+  "stats": {
+    "users": "Active Users",
+    "security": "Security Rating",
+    "protected": "Files Protected", 
+    "rating": "User Rating"
+  },
+  "features": {
+    "title": "Why Choose SecureVault?",
+    "subtitle": "We're not just a file encryption tool, but your digital life security guardian",
+    "encryption": {
+      "title": "AES-256 Military-Grade Encryption",
+      "description": "Using the highest level encryption standards to ensure your files are absolutely secure, even government-level encryption technology.",
+      "highlight": "Bank-Level Security"
+    },
+    "biometric": {
+      "title": "Touch ID / Face ID Support",
+      "description": "Seamlessly integrated with macOS biometric technology for instant access with secure and convenient experience.",
+      "highlight": "Biometric Auth"
+    },
+    "autoLock": {
+      "title": "Smart Auto-Lock Protection",
+      "description": "Intelligently monitors user activity with configurable auto-lock time to prevent unauthorized access.",
+      "highlight": "Smart Protection"
+    },
+    "cloudBackup": {
+      "title": "iCloud Secure Backup",
+      "description": "Encrypted data cloud backup with multi-device sync, never lose important files.",
+      "highlight": "Cloud Sync"
+    },
+    "preview": {
+      "title": "Privacy Preview System", 
+      "description": "Securely preview various file formats without decrypting to temporary files, protecting privacy from leaks.",
+      "highlight": "Secure Preview"
+    },
+    "performance": {
+      "title": "Ultra-Fast Performance",
+      "description": "Native Swift development, fully utilizing Apple Silicon performance for quick response to every operation.",
+      "highlight": "Native Performance"
+    }
+  },
+  "testimonials": {
+    "title": "Real User Reviews",
+    "subtitle": "See how other users rate SecureVault",
+    "user1": {
+      "name": "Mr. Li",
+      "role": "Software Engineer", 
+      "content": "As a developer, I need to protect source code and client data. SecureVault's AES-256 encryption gives me great peace of mind, and Touch ID support is very convenient."
+    },
+    "user2": {
+      "name": "Ms. Wang",
+      "role": "Finance Manager",
+      "content": "Company financial documents are all stored in SecureVault, the encrypted backup feature ensures data security. The interface design is professional and easy to use."
+    },
+    "user3": {
+      "name": "Prof. Zhang",
+      "role": "University Professor",
+      "content": "Research materials and academic papers are very important, SecureVault's tag management and search features keep my files well organized."
+    }
+  },
+  "pricing": {
+    "title": "Professional Commercial Product",
+    "subtitle": "Enterprise-level file security solution with professional technical support",
+    "productName": "SecureVault", 
+    "price": "Commercial License",
+    "priceDesc": "Enterprise Solution",
+    "features": [
+      "Unlimited File Storage",
+      "AES-256 Encryption",
+      "Touch ID / Face ID",
+      "iCloud Backup Sync",
+      "Smart Tag Management", 
+      "All Format Preview",
+      "Operation Log Recording",
+      "Professional Technical Support",
+      "Regular Security Updates"
+    ],
+    "downloadBtn": "Download Now"
+  },
+  "cta": {
+    "title": "Start Protecting Your Private Files",
+    "subtitle": "Join over 50,000 users' trusted choice and experience the most secure file management",
+    "downloadBtn": "macOS Download",
+    "githubBtn": "View Details", 
+    "requirements": "System Requirements: macOS 14.0 or higher • Commercial Product • Professional Support"
+  },
+  "common": {
+    "appName": "SecureVault",
+    "appSubtitle": "Professional File Encryption"
+  },
+  "developmentNotice": {
+    "title": "English Version Under Development",
+    "message": "The English version is currently under development. Please stay tuned for updates.",
+    "backToChinese": "Switch to Chinese"
+  }
+}

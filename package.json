@@ -1,0 +1,52 @@
+{
+  "name": "private-drawer-landing",
+  "version": "1.0.0",
+  "description": "私密抽屉 - 专业级macOS文件加密管理应用的官方网站",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next export"
+  },
+  "dependencies": {
+    "@next/font": "14.0.4",
+    "autoprefixer": "^10.4.16",
+    "framer-motion": "^10.16.16",
+    "lucide-react": "^0.294.0",
+    "next": "14.0.4",
+    "postcss": "^8.4.32",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "14.0.4",
+    "typescript": "^5.3.3"
+  },
+  "keywords": [
+    "私密抽屉",
+    "Private Drawer",
+    "macOS",
+    "文件加密",
+    "数据安全",
+    "文件管理",
+    "AES-256",
+    "Touch ID",
+    "Face ID",
+    "文件保护",
+    "隐私安全"
+  ],
+  "author": "Private Drawer Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/private-drawer"
+  },
+  "homepage": "https://private-drawer.vercel.app"
+}
