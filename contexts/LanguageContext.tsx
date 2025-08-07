@@ -11,6 +11,7 @@ interface LanguageContextType {
   locale: Locale
   setLocale: (locale: Locale) => void
   t: (key: string) => string
+  translations: Messages
 }
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined)
@@ -53,8 +54,10 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
     }
   }, [])
 
+  const currentTranslations = messages[locale]
+
   return (
-    <LanguageContext.Provider value={{ locale, setLocale, t }}>
+    <LanguageContext.Provider value={{ locale, setLocale, t, translations: currentTranslations }}>
       {children}
     </LanguageContext.Provider>
   )

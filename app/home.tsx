@@ -26,7 +26,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 
 export default function Home() {
-  const { locale, t } = useLanguage()
+  const { locale, t, translations } = useLanguage()
   const [isVisible, setIsVisible] = useState(false)
 
   useEffect(() => {
@@ -35,8 +35,7 @@ export default function Home() {
 
   const fadeInUp = {
     initial: { opacity: 0, y: 60 },
-    animate: { opacity: 1, y: 0 },
-    transition: { duration: 0.6 }
+    animate: { opacity: 1, y: 0, transition: { duration: 0.6 } }
   }
 
   const staggerContainer = {
@@ -114,7 +113,11 @@ export default function Home() {
     }
   ]
 
-  const pricingFeatures = t('pricing.features', { returnObjects: true }) as string[]
+  // Get pricing features from translations object directly
+  const pricingFeatures = (() => {
+    const features = translations.pricing?.features
+    return Array.isArray(features) ? features : []
+  })()
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-100 dark:from-slate-900 dark:via-slate-800 dark:to-indigo-900">
