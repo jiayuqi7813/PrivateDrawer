@@ -3,6 +3,7 @@
     "features": "Features",
     "testimonials": "Testimonials",
     "download": "Download", 
+    "faq": "FAQ",
     "docs": "Docs",
     "support": "Support"
   },
@@ -142,5 +143,119 @@
     "title": "English Version Under Development",
     "message": "The English version is currently under development. Please stay tuned for updates.",
     "backToChinese": "Switch to Chinese"
+  },
+  "sponsor": {
+    "button": "Sponsor Development",
+    "description": "Your support drives our continuous improvement ❤️"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Common questions about SecureVault to help you better understand our product and philosophy",
+    "noResults": "No questions found in this category",
+    "categories": {
+      "all": "All",
+      "general": "General",
+      "security": "Security",
+      "technical": "Technical",
+      "business": "Business"
+    },
+    "contact": {
+      "title": "Have other questions?",
+      "description": "If you didn't find the answer you're looking for, please contact us through the following channels",
+      "githubIssues": "Submit Issue",
+      "sponsor": "Sponsor Support"
+    },
+    "items": [
+      {
+        "id": "what-is-securevault",
+        "category": "general",
+        "question": "What is SecureVault?",
+        "answer": "SecureVault is a file encryption and privacy protection tool designed specifically for macOS. It uses military-grade AES-256 encryption algorithms to help users securely store and manage sensitive files, photos, documents, and other private data."
+      },
+      {
+        "id": "why-not-open-source",
+        "category": "business",
+        "question": "Why isn't SecureVault open source?",
+        "answer": "We chose not to open source for several important reasons:\n\n1. **Security Considerations**: Open source code may expose encryption implementation details, providing opportunities for malicious attackers to reverse engineer.\n\n2. **Business Sustainability**: Developing high-quality security software requires significant time and resource investment. Commercial operation ensures continuous product development and maintenance.\n\n3. **Professional Support**: Closed source model allows us to provide professional technical support and timely security updates.\n\n4. **Intellectual Property Protection**: Protecting our proprietary security algorithm optimizations and user experience designs.\n\n5. **Quality Control**: Unified development and testing processes ensure software stability and security.\n\nWe understand the value of the open source community, but for security tools, professional closed source development better protects user data security."
+      },
+      {
+        "id": "encryption-algorithm",
+        "category": "security",
+        "question": "What encryption algorithm is used?",
+        "answer": "SecureVault uses military-grade AES-256 encryption algorithm, which is currently the industry-recognized most secure symmetric encryption standard. Combined with PBKDF2 key derivation function and random salt values, it ensures that even identical files produce different encryption results."
+      },
+      {
+        "id": "password-security",
+        "category": "security",
+        "question": "What if I forget my password?",
+        "answer": "For security reasons, SecureVault does not store your password and cannot help you recover it. We recommend:\n\n• Use strong but memorable password combinations\n• Safely record passwords in a password manager\n• Regularly backup unencrypted versions of important files\n\nThis design ensures that even we cannot access your encrypted data."
+      },
+      {
+        "id": "system-requirements",
+        "category": "technical",
+        "question": "What are the system requirements?",
+        "answer": "SecureVault supports:\n\n• macOS 11.0 (Big Sur) and higher\n• At least 100MB available storage space\n• Intel or Apple Silicon processors\n\nWe continuously optimize performance to ensure smooth operation on various Mac devices."
+      },
+      {
+        "id": "file-size-limit",
+        "category": "technical",
+        "question": "What file sizes are supported?",
+        "answer": "SecureVault theoretically has no file size limit, but actual usage is affected by:\n\n• Available disk space\n• System memory size\n• File type and complexity\n\nWe have tested GB-level file encryption with good performance. For very large files, ensure sufficient available space."
+      },
+      {
+        "id": "cloud-storage",
+        "category": "security",
+        "question": "Can encrypted files be stored in the cloud?",
+        "answer": "Absolutely! Encrypted files can be safely stored in any cloud storage service such as iCloud, Google Drive, Dropbox, etc. Even if cloud service providers or others obtain these files, they cannot decrypt and view the content without your password."
+      },
+      {
+        "id": "performance",
+        "category": "technical",
+        "question": "Does encryption affect performance?",
+        "answer": "SecureVault is deeply optimized with minimal impact on system performance:\n\n• Uses asynchronous encryption processing without blocking the interface\n• Intelligent memory management to avoid memory leaks\n• Specially optimized for Apple Silicon\n• Supports background processing of large files\n\nMost operations complete within seconds."
+      },
+      {
+        "id": "data-backup",
+        "category": "security",
+        "question": "How to backup encrypted data?",
+        "answer": "We recommend a multi-layer backup strategy:\n\n1. **Local Backup**: Regularly copy encrypted files to external hard drives\n2. **Cloud Backup**: Utilize cloud storage version control features\n3. **Original File Backup**: Keep unencrypted copies of important files in secure locations\n\nRemember: Backing up passwords is equally important, use different storage locations."
+      },
+      {
+        "id": "updates",
+        "category": "general",
+        "question": "How often are updates released?",
+        "answer": "We follow the following update strategy:\n\n• **Security Updates**: Released immediately when security issues are discovered\n• **Feature Updates**: 1-2 times per month, adding new features and improvements\n• **System Adaptation**: Timely adaptation to new macOS versions\n\nAll updates undergo rigorous testing to ensure stability and compatibility."
+      },
+      {
+        "id": "support",
+        "category": "general",
+        "question": "How to get technical support?",
+        "answer": "We provide multiple support channels:\n\n• **GitHub Issues**: Report bugs and feature requests\n• **Email Support**: Contact the development team\n• **User Manual**: Detailed usage guides\n• **Community Forums**: User exchanges and experience sharing\n\nWe typically respond to technical questions within 24 hours."
+      },
+      {
+        "id": "pricing",
+        "category": "business",
+        "question": "What is the pricing strategy?",
+        "answer": "SecureVault uses a one-time purchase model:\n\n• **Personal Edition**: $14.99, lifetime use\n• **Professional Edition**: $29.99, includes advanced features\n• **Free Trial**: 30-day full-feature experience\n\nNo subscription fees, permanent use after purchase, including free security updates."
+      },
+      {
+        "id": "enterprise",
+        "category": "business",
+        "question": "Is there an enterprise version?",
+        "answer": "We are developing an enterprise version that will include:\n\n• Bulk license management\n• Central policy control\n• Audit logging features\n• 24/7 technical support\n• Custom deployment options\n\nExpected to be released next quarter, stay tuned."
+      },
+      {
+        "id": "competitor-comparison",
+        "category": "general",
+        "question": "What advantages does it have over other encryption software?",
+        "answer": "SecureVault's unique advantages:\n\n• **Native macOS Design**: Perfect system integration with excellent performance\n• **Intuitive User Interface**: No need to learn complex operations\n• **Fast Encryption**: Optimized for Apple Silicon\n• **Secure and Reliable**: Professional team development with continuous maintenance\n• **Localization Support**: Complete Chinese interface and documentation\n\nWe focus on providing the best encryption experience for Mac users."
+      },
+      {
+        "id": "privacy-policy",
+        "category": "security",
+        "question": "What about the privacy policy?",
+        "answer": "We strictly adhere to privacy protection principles:\n\n• **Zero Data Collection**: No collection of any personal files or passwords\n• **Local Processing**: All encryption operations completed locally\n• **Minimal Permissions**: Only access necessary system functions\n• **Transparency**: Clear explanation of app permission requirements\n\nYour privacy and data security are our highest priority."
+      }
+    ]
   }
 }

@@ -23,6 +23,7 @@ export default function Header() {
     { name: t('nav.features'), href: '/features' },
     { name: t('nav.testimonials'), href: '#testimonials' },
     { name: t('nav.download'), href: '/download' },
+    { name: t('nav.faq'), href: '/faq' },
     { name: t('nav.docs'), href: '#docs' },
     { name: t('nav.support'), href: '#support' }
   ]
