@@ -10,7 +10,7 @@ interface FAQItem {
   question: string
   answer: string
   icon?: React.ReactNode
-  category: 'general' | 'security' | 'technical' | 'business'
+  category: string
 }
 
 export default function FAQPage() {
