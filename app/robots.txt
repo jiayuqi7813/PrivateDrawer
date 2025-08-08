@@ -15,7 +15,7 @@ Disallow: /_next/
 Disallow: /admin/
 
 # 站点地图
-Sitemap: https://private-drawer.vercel.app/sitemap.xml
+Sitemap: https://securevault.snowywar.top/sitemap.xml
 
 # 抓取延迟
 Crawl-delay: 1

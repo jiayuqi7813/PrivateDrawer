@@ -22,6 +22,10 @@
         {
           "key": "Permissions-Policy",
           "value": "camera=(), microphone=(), geolocation=()"
+        },
+        {
+          "key": "Strict-Transport-Security",
+          "value": "max-age=31536000; includeSubDomains"
         }
       ]
     },
@@ -45,6 +49,16 @@
       "source": "/releases",
       "destination": "https://github.com/jiayuqi7813/SecureVault/releases",
       "permanent": false
+    },
+    {
+      "source": "/sitemap",
+      "destination": "/sitemap.xml",
+      "permanent": true
+    },
+    {
+      "source": "/robots",
+      "destination": "/robots.txt",
+      "permanent": true
     }
   ],
   "rewrites": [
