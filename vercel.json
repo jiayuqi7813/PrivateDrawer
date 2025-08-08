@@ -65,6 +65,10 @@
     {
       "source": "/docs/(.*)",
       "destination": "/docs/$1"
+    },
+    {
+      "source": "/googlec41a06848141a3ce.html",
+      "destination": "/googlec41a06848141a3ce.html"
     }
   ]
 }
