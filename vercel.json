@@ -42,12 +42,12 @@
   "redirects": [
     {
       "source": "/github",
-      "destination": "https://github.com/jiayuqi7813/SecureVault",
+      "destination": "https://github.com/jiayuqi7813/PrivateDrawer",
       "permanent": false
     },
     {
       "source": "/releases",
-      "destination": "https://github.com/jiayuqi7813/SecureVault/releases",
+      "destination": "https://github.com/jiayuqi7813/PrivateDrawer/releases",
       "permanent": false
     },
     {

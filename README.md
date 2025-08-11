@@ -1,6 +1,6 @@
-# SecureVault 官方网站
+# PrivateDrawer 官方网站
 
-这是 SecureVault 的官方落地页网站，采用 Next.js 14 和 Tailwind CSS 构建。
+这是 PrivateDrawer 的官方落地页网站，采用 Next.js 14 和 Tailwind CSS 构建，并针对 "mac 私密文件夹" 等关键词进行了 SEO 优化。
 
 ## 🚀 特性
 
@@ -227,4 +227,4 @@ theme: {
 
 ---
 
-**注意**: 这是 SecureVault 应用的官方网站源码，与主应用程序分离维护。
+**注意**: 这是 PrivateDrawer 应用的官方网站源码，与主应用程序分离维护。

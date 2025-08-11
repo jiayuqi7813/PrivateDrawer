@@ -11,7 +11,7 @@
     "award": "Best macOS Security App 2024",
     "title": "Protect Your",
     "titleHighlight": "Private Files",
-    "subtitle": "SecureVault uses AES-256 military-grade encryption to provide professional file security protection for macOS users. Support for Touch ID / Face ID makes security simple and elegant.",
+    "subtitle": "PrivateDrawer uses AES-256 military-grade encryption to provide professional private folder and file security protection for macOS users. Support for Touch ID / Face ID makes security simple and elegant.",
     "downloadBtn": "Free Download",
     "demoBtn": "Watch Demo"
   },
@@ -22,7 +22,7 @@
     "rating": "User Rating"
   },
   "features": {
-    "title": "Why Choose SecureVault?",
+    "title": "Why Choose PrivateDrawer?",
     "subtitle": "We're not just a file encryption tool, but your digital life security guardian",
     "encryption": {
       "title": "AES-256 Military-Grade Encryption",
@@ -57,27 +57,27 @@
   },
   "testimonials": {
     "title": "Real User Reviews",
-    "subtitle": "See how other users rate SecureVault",
+    "subtitle": "See how other users rate PrivateDrawer",
     "user1": {
       "name": "Mr. Li",
       "role": "Software Engineer", 
-      "content": "As a developer, I need to protect source code and client data. SecureVault's AES-256 encryption gives me great peace of mind, and Touch ID support is very convenient."
+      "content": "As a developer, I need to protect source code and client data. PrivateDrawer's AES-256 encryption gives me great peace of mind, and Touch ID support is very convenient."
     },
     "user2": {
       "name": "Ms. Wang",
       "role": "Finance Manager",
-      "content": "Company financial documents are all stored in SecureVault, the encrypted backup feature ensures data security. The interface design is professional and easy to use."
+      "content": "Company financial documents are all stored in PrivateDrawer, the encrypted backup feature ensures data security. The interface design is professional and easy to use."
     },
     "user3": {
       "name": "Prof. Zhang",
       "role": "University Professor",
-      "content": "Research materials and academic papers are very important, SecureVault's tag management and search features keep my files well organized."
+      "content": "Research materials and academic papers are very important, PrivateDrawer's tag management and search features keep my files well organized."
     }
   },
   "pricing": {
     "title": "Professional Commercial Product",
     "subtitle": "Enterprise-level file security solution with professional technical support",
-    "productName": "SecureVault", 
+    "productName": "PrivateDrawer", 
     "price": "Commercial License",
     "priceDesc": "Enterprise Solution",
     "features": [
@@ -96,7 +96,7 @@
   "screenshots": {
     "badge": "App Screenshots",
     "title": "Visual Experience",
-    "description": "Explore SecureVault's powerful features and elegant design through actual application interfaces",
+    "description": "Explore PrivateDrawer's powerful features and elegant design through actual application interfaces",
     "fileManager": {
       "title": "File Management Interface",
       "description": "Clean and intuitive file list with multi-format preview and smart categorization"
@@ -136,7 +136,7 @@
     "requirements": "System Requirements: macOS 14.0 or higher • Commercial Product • Professional Support"
   },
   "common": {
-    "appName": "SecureVault",
+    "appName": "PrivateDrawer",
     "appSubtitle": "Professional File Encryption"
   },
   "developmentNotice": {
@@ -150,7 +150,7 @@
   },
   "faq": {
     "title": "Frequently Asked Questions",
-    "subtitle": "Common questions about SecureVault to help you better understand our product and philosophy",
+    "subtitle": "Common questions about PrivateDrawer to help you better understand our product and philosophy",
     "noResults": "No questions found in this category",
     "categories": {
       "all": "All",
@@ -169,38 +169,38 @@
       {
         "id": "what-is-securevault",
         "category": "general",
-        "question": "What is SecureVault?",
-        "answer": "SecureVault is a file encryption and privacy protection tool designed specifically for macOS. It uses military-grade AES-256 encryption algorithms to help users securely store and manage sensitive files, photos, documents, and other private data."
+        "question": "What is PrivateDrawer?",
+        "answer": "PrivateDrawer is a file encryption and privacy protection tool designed specifically for macOS. It uses military-grade AES-256 encryption algorithms to help users securely store and manage sensitive files, photos, documents, and other private data."
       },
       {
         "id": "why-not-open-source",
         "category": "business",
-        "question": "Why isn't SecureVault open source?",
+        "question": "Why isn't PrivateDrawer open source?",
         "answer": "We chose not to open source for several important reasons:\n\n1. **Security Considerations**: Open source code may expose encryption implementation details, providing opportunities for malicious attackers to reverse engineer.\n\n2. **Business Sustainability**: Developing high-quality security software requires significant time and resource investment. Commercial operation ensures continuous product development and maintenance.\n\n3. **Professional Support**: Closed source model allows us to provide professional technical support and timely security updates.\n\n4. **Intellectual Property Protection**: Protecting our proprietary security algorithm optimizations and user experience designs.\n\n5. **Quality Control**: Unified development and testing processes ensure software stability and security.\n\nWe understand the value of the open source community, but for security tools, professional closed source development better protects user data security."
       },
       {
         "id": "encryption-algorithm",
         "category": "security",
         "question": "What encryption algorithm is used?",
-        "answer": "SecureVault uses military-grade AES-256 encryption algorithm, which is currently the industry-recognized most secure symmetric encryption standard. Combined with PBKDF2 key derivation function and random salt values, it ensures that even identical files produce different encryption results."
+        "answer": "PrivateDrawer uses military-grade AES-256 encryption algorithm, which is currently the industry-recognized most secure symmetric encryption standard. Combined with PBKDF2 key derivation function and random salt values, it ensures that even identical files produce different encryption results."
       },
       {
         "id": "password-security",
         "category": "security",
         "question": "What if I forget my password?",
-        "answer": "For security reasons, SecureVault does not store your password and cannot help you recover it. We recommend:\n\n• Use strong but memorable password combinations\n• Safely record passwords in a password manager\n• Regularly backup unencrypted versions of important files\n\nThis design ensures that even we cannot access your encrypted data."
+        "answer": "For security reasons, PrivateDrawer does not store your password and cannot help you recover it. We recommend:\n\n• Use strong but memorable password combinations\n• Safely record passwords in a password manager\n• Regularly backup unencrypted versions of important files\n\nThis design ensures that even we cannot access your encrypted data."
       },
       {
         "id": "system-requirements",
         "category": "technical",
         "question": "What are the system requirements?",
-        "answer": "SecureVault supports:\n\n• macOS 11.0 (Big Sur) and higher\n• At least 100MB available storage space\n• Intel or Apple Silicon processors\n\nWe continuously optimize performance to ensure smooth operation on various Mac devices."
+        "answer": "PrivateDrawer supports:\n\n• macOS 11.0 (Big Sur) and higher\n• At least 100MB available storage space\n• Intel or Apple Silicon processors\n\nWe continuously optimize performance to ensure smooth operation on various Mac devices."
       },
       {
         "id": "file-size-limit",
         "category": "technical",
         "question": "What file sizes are supported?",
-        "answer": "SecureVault theoretically has no file size limit, but actual usage is affected by:\n\n• Available disk space\n• System memory size\n• File type and complexity\n\nWe have tested GB-level file encryption with good performance. For very large files, ensure sufficient available space."
+        "answer": "PrivateDrawer theoretically has no file size limit, but actual usage is affected by:\n\n• Available disk space\n• System memory size\n• File type and complexity\n\nWe have tested GB-level file encryption with good performance. For very large files, ensure sufficient available space."
       },
       {
         "id": "cloud-storage",
@@ -212,7 +212,7 @@
         "id": "performance",
         "category": "technical",
         "question": "Does encryption affect performance?",
-        "answer": "SecureVault is deeply optimized with minimal impact on system performance:\n\n• Uses asynchronous encryption processing without blocking the interface\n• Intelligent memory management to avoid memory leaks\n• Specially optimized for Apple Silicon\n• Supports background processing of large files\n\nMost operations complete within seconds."
+        "answer": "PrivateDrawer is deeply optimized with minimal impact on system performance:\n\n• Uses asynchronous encryption processing without blocking the interface\n• Intelligent memory management to avoid memory leaks\n• Specially optimized for Apple Silicon\n• Supports background processing of large files\n\nMost operations complete within seconds."
       },
       {
         "id": "data-backup",
@@ -236,7 +236,7 @@
         "id": "pricing",
         "category": "business",
         "question": "What is the pricing strategy?",
-        "answer": "SecureVault uses a one-time purchase model:\n\n• **Personal Edition**: $14.99, lifetime use\n• **Professional Edition**: $29.99, includes advanced features\n• **Free Trial**: 30-day full-feature experience\n\nNo subscription fees, permanent use after purchase, including free security updates."
+        "answer": "PrivateDrawer uses a one-time purchase model:\n\n• **Personal Edition**: $14.99, lifetime use\n• **Professional Edition**: $29.99, includes advanced features\n• **Free Trial**: 30-day full-feature experience\n\nNo subscription fees, permanent use after purchase, including free security updates."
       },
       {
         "id": "enterprise",
@@ -248,7 +248,7 @@
         "id": "competitor-comparison",
         "category": "general",
         "question": "What advantages does it have over other encryption software?",
-        "answer": "SecureVault's unique advantages:\n\n• **Native macOS Design**: Perfect system integration with excellent performance\n• **Intuitive User Interface**: No need to learn complex operations\n• **Fast Encryption**: Optimized for Apple Silicon\n• **Secure and Reliable**: Professional team development with continuous maintenance\n• **Localization Support**: Complete Chinese interface and documentation\n\nWe focus on providing the best encryption experience for Mac users."
+        "answer": "PrivateDrawer's unique advantages:\n\n• **Native macOS Design**: Perfect system integration with excellent performance\n• **Intuitive User Interface**: No need to learn complex operations\n• **Fast Encryption**: Optimized for Apple Silicon\n• **Secure and Reliable**: Professional team development with continuous maintenance\n• **Localization Support**: Complete Chinese interface and documentation\n\nWe focus on providing the best encryption experience for Mac users."
       },
       {
         "id": "privacy-policy",

@@ -55,14 +55,14 @@ export default function Footer() {
               <div className="w-12 h-12 rounded-xl overflow-hidden">
                 <Image 
                   src="/AppIcon-1024.png"
-                  alt="SecureVault Logo"
+                  alt="PrivateDrawer Logo"
                   width={48}
                   height={48}
                   className="w-full h-full object-cover"
                 />
               </div>
               <div>
-                <h2 className="text-2xl font-bold">SecureVault</h2>
+                <h2 className="text-2xl font-bold">PrivateDrawer</h2>
                 <p className="text-gray-400 text-sm">专业文件加密</p>
               </div>
             </motion.div>
