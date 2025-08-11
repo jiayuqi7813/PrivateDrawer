@@ -7,36 +7,36 @@ import { Analytics } from '@vercel/analytics/next'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'SecureVault - 专业级macOS文件加密管理应用',
-  description: 'SecureVault是一款专为macOS设计的企业级文件加密和管理应用，采用AES-256军用级加密，支持Touch ID/Face ID，为您的重要文件提供银行级安全保护。',
-  keywords: ['macOS', '文件加密', 'AES-256', 'Touch ID', 'Face ID', '文件管理', '安全存储', '隐私保护', 'SecureVault'],
-  authors: [{ name: 'SecureVault Team' }],
-  creator: 'SecureVault Team',
-  publisher: 'SecureVault',
+  title: 'PrivateDrawer - macOS 私密文件夹与文件加密管理应用',
+  description: 'PrivateDrawer是一款专为macOS设计的私密文件夹和文件加密管理应用，采用AES-256军用级加密，支持Touch ID/Face ID，为您的重要文件提供银行级安全保护。',
+  keywords: ['macOS', '私密文件夹', 'mac 私密文件夹', '文件加密', 'AES-256', 'Touch ID', 'Face ID', '文件管理', '安全存储', '隐私保护', 'PrivateDrawer'],
+  authors: [{ name: 'PrivateDrawer Team' }],
+  creator: 'PrivateDrawer Team',
+  publisher: 'PrivateDrawer',
   robots: 'index, follow',
   alternates: {
-    canonical: 'https://securevault.snowywar.top',
+    canonical: 'https://private-drawer.vercel.app',
   },
   openGraph: {
     type: 'website',
     locale: 'zh_CN',
-    url: 'https://securevault.snowywar.top',
-    title: 'SecureVault - 专业级macOS文件加密管理应用',
-    description: 'SecureVault是一款专为macOS设计的企业级文件加密和管理应用，采用AES-256军用级加密，支持Touch ID/Face ID，为您的重要文件提供银行级安全保护。',
-    siteName: 'SecureVault',
+    url: 'https://private-drawer.vercel.app',
+    title: 'PrivateDrawer - macOS 私密文件夹与文件加密管理应用',
+    description: 'PrivateDrawer是一款专为macOS设计的私密文件夹和文件加密管理应用，采用AES-256军用级加密，支持Touch ID/Face ID，为您的重要文件提供银行级安全保护。',
+    siteName: 'PrivateDrawer',
     images: [
       {
         url: '/AppIcon-1024.png',
         width: 1024,
         height: 1024,
-        alt: 'SecureVault Logo',
+        alt: 'PrivateDrawer Logo',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'SecureVault - 专业级macOS文件加密管理应用',
-    description: 'SecureVault是一款专为macOS设计的企业级文件加密和管理应用，采用AES-256军用级加密，支持Touch ID/Face ID，为您的重要文件提供银行级安全保护。',
+    title: 'PrivateDrawer - macOS 私密文件夹与文件加密管理应用',
+    description: 'PrivateDrawer是一款专为macOS设计的私密文件夹和文件加密管理应用，采用AES-256军用级加密，支持Touch ID/Face ID，为您的重要文件提供银行级安全保护。',
     images: ['/AppIcon-1024.png'],
   },
   verification: {
@@ -63,24 +63,24 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "SoftwareApplication",
-              "name": "SecureVault",
-              "alternateName": "SecureVault macOS",
-              "description": "SecureVault是一款专为macOS设计的企业级文件加密和管理应用，采用AES-256军用级加密，支持Touch ID/Face ID，为您的重要文件提供银行级安全保护。",
-              "url": "https://securevault.snowywar.top",
+              "name": "PrivateDrawer",
+              "alternateName": "PrivateDrawer macOS",
+              "description": "PrivateDrawer是一款专为macOS设计的私密文件夹和文件加密管理应用，采用AES-256军用级加密，支持Touch ID/Face ID，为您的重要文件提供银行级安全保护。",
+              "url": "https://private-drawer.vercel.app",
               "applicationCategory": "SecurityApplication",
               "operatingSystem": "macOS",
-              "downloadUrl": "https://github.com/jiayuqi7813/SecureVault/releases",
+              "downloadUrl": "https://github.com/jiayuqi7813/PrivateDrawer/releases",
               "softwareVersion": "Latest",
               "datePublished": "2024-01-01",
               "dateModified": new Date().toISOString().split('T')[0],
               "author": {
                 "@type": "Organization",
-                "name": "SecureVault Team"
+                "name": "PrivateDrawer Team"
               },
               "publisher": {
-                "@type": "Organization", 
-                "name": "SecureVault",
-                "url": "https://securevault.snowywar.top"
+                "@type": "Organization",
+                "name": "PrivateDrawer",
+                "url": "https://private-drawer.vercel.app"
               },
               "aggregateRating": {
                 "@type": "AggregateRating",
@@ -101,13 +101,13 @@ export default function RootLayout({
               ],
               "requirements": "macOS 14.0 或更高版本",
               "screenshot": [
-                "https://securevault.snowywar.top/iShot_2025-08-07_19.14.02.png",
-                "https://securevault.snowywar.top/iShot_2025-08-07_19.14.13.png",
-                "https://securevault.snowywar.top/iShot_2025-08-07_19.14.52.png",
-                "https://securevault.snowywar.top/iShot_2025-08-07_19.15.23.png"
+                "https://private-drawer.vercel.app/iShot_2025-08-07_19.14.02.png",
+                "https://private-drawer.vercel.app/iShot_2025-08-07_19.14.13.png",
+                "https://private-drawer.vercel.app/iShot_2025-08-07_19.14.52.png",
+                "https://private-drawer.vercel.app/iShot_2025-08-07_19.15.23.png"
               ],
-              "image": "https://securevault.snowywar.top/AppIcon-1024.png",
-              "logo": "https://securevault.snowywar.top/AppIcon-1024.png"
+              "image": "https://private-drawer.vercel.app/AppIcon-1024.png",
+              "logo": "https://private-drawer.vercel.app/AppIcon-1024.png"
             })
           }}
         />

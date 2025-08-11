@@ -191,7 +191,7 @@ export default function Home() {
               transition={{ duration: 0.8, delay: 0.5 }}
             >
               <a 
-                href="https://github.com/jiayuqi7813/SecureVault/releases/"
+                href="https://github.com/jiayuqi7813/PrivateDrawer/releases/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white px-8 py-4 rounded-xl font-semibold text-lg shadow-lg hover:shadow-xl transition-all duration-300 flex items-center"
@@ -493,7 +493,7 @@ export default function Home() {
             </ul>
             
             <a 
-              href="https://github.com/jiayuqi7813/SecureVault/releases/"
+              href="https://github.com/jiayuqi7813/PrivateDrawer/releases/"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white py-4 px-6 rounded-xl font-semibold text-lg shadow-lg hover:shadow-xl transition-all duration-300 text-center block"
@@ -517,7 +517,7 @@ export default function Home() {
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <a 
-                href="https://github.com/jiayuqi7813/SecureVault/releases/"
+                href="https://github.com/jiayuqi7813/PrivateDrawer/releases/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-white hover:bg-gray-50 text-blue-600 px-8 py-4 rounded-xl font-semibold text-lg shadow-lg hover:shadow-xl transition-all duration-300 flex items-center"
@@ -527,7 +527,7 @@ export default function Home() {
               </a>
               
               <a 
-                href="https://github.com/jiayuqi7813/SecureVault/releases/"
+                href="https://github.com/jiayuqi7813/PrivateDrawer/releases/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-white/20 backdrop-blur hover:bg-white/30 text-white px-8 py-4 rounded-xl font-semibold text-lg border border-white/30 transition-all duration-300 flex items-center"

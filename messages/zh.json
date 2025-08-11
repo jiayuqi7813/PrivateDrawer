@@ -11,7 +11,7 @@
     "award": "macOS 最佳安全应用 2024",
     "title": "保护您的",
     "titleHighlight": "私密文件",
-    "subtitle": "SecureVault采用 AES-256 军用级加密，为macOS用户提供专业级文件安全保护。支持 Touch ID / Face ID，让安全变得简单优雅。",
+    "subtitle": "私密抽屉采用 AES-256 军用级加密，为 macOS 用户提供专业级私密文件夹和文件安全保护。支持 Touch ID / Face ID，让安全变得简单优雅。",
     "downloadBtn": "免费下载",
     "demoBtn": "观看演示"
   },
@@ -22,7 +22,7 @@
     "rating": "用户评分"
   },
   "features": {
-    "title": "为什么选择SecureVault？",
+    "title": "为什么选择私密抽屉？",
     "subtitle": "我们不仅仅是一款文件加密工具，更是您数字生活的安全守护者",
     "encryption": {
       "title": "AES-256 军用级加密",
@@ -57,27 +57,27 @@
   },
   "testimonials": {
     "title": "用户真实评价",
-    "subtitle": "看看其他用户如何评价SecureVault",
+    "subtitle": "看看其他用户如何评价私密抽屉",
     "user1": {
       "name": "李先生",
       "role": "软件工程师",
-      "content": "作为开发者，我需要保护源代码和客户数据。SecureVault的AES-256加密让我非常放心，Touch ID支持也很便捷。"
+      "content": "作为开发者，我需要保护源代码和客户数据。私密抽屉的AES-256加密让我非常放心，Touch ID支持也很便捷。"
     },
     "user2": {
       "name": "王女士", 
       "role": "财务经理",
-      "content": "公司的财务文档都存储在SecureVault中，加密备份功能确保数据安全。界面设计很专业，操作简单。"
+      "content": "公司的财务文档都存储在私密抽屉中，加密备份功能确保数据安全。界面设计很专业，操作简单。"
     },
     "user3": {
       "name": "张教授",
       "role": "大学教授", 
-      "content": "研究资料和学术论文都很重要，SecureVault的标签管理和搜索功能让我的文件井井有条。"
+      "content": "研究资料和学术论文都很重要，私密抽屉的标签管理和搜索功能让我的文件井井有条。"
     }
   },
   "pricing": {
     "title": "专业商业产品",
     "subtitle": "企业级文件安全解决方案，专业技术支持",
-    "productName": "SecureVault",
+    "productName": "私密抽屉",
     "price": "商业授权",
     "priceDesc": "企业级解决方案",
     "features": [
@@ -96,7 +96,7 @@
   "screenshots": {
     "badge": "应用截图",
     "title": "直观体验",
-    "description": "通过实际应用界面，深入了解SecureVault的强大功能和优雅设计",
+    "description": "通过实际应用界面，深入了解私密抽屉的强大功能和优雅设计",
     "fileManager": {
       "title": "文件管理界面",
       "description": "清晰直观的文件列表，支持多种格式预览和智能分类管理"
@@ -136,7 +136,7 @@
     "requirements": "系统要求：macOS 14.0 或更高版本 • 商业产品 • 专业支持"
   },
   "common": {
-    "appName": "SecureVault",
+    "appName": "私密抽屉",
     "appSubtitle": "专业文件加密"
   },
   "sponsor": {
@@ -145,7 +145,7 @@
   },
   "faq": {
     "title": "常见问题",
-    "subtitle": "关于 SecureVault 的常见疑问解答，让您更好地了解我们的产品和理念",
+    "subtitle": "关于 私密抽屉 的常见疑问解答，让您更好地了解我们的产品和理念",
     "noResults": "该分类下暂无问题",
     "categories": {
       "all": "全部",
@@ -164,38 +164,38 @@
       {
         "id": "what-is-securevault",
         "category": "general",
-        "question": "SecureVault 是什么？",
-        "answer": "SecureVault 是一款专为 macOS 设计的文件加密和隐私保护工具。它采用军事级 AES-256 加密算法，帮助用户安全地存储和管理敏感文件、照片、文档等私人数据。"
+        "question": "私密抽屉 是什么？",
+        "answer": "私密抽屉 是一款专为 macOS 设计的文件加密和隐私保护工具。它采用军事级 AES-256 加密算法，帮助用户安全地存储和管理敏感文件、照片、文档等私人数据。"
       },
       {
         "id": "why-not-open-source",
         "category": "business",
-        "question": "为什么 SecureVault 不开源？",
+        "question": "为什么 私密抽屉 不开源？",
         "answer": "我们选择不开源有以下几个重要原因：\n\n1. **安全考虑**：开源代码可能暴露加密实现细节，给恶意攻击者提供逆向工程的机会。\n\n2. **商业可持续性**：开发高质量的安全软件需要大量时间和资源投入，通过商业化运营可以确保产品的持续开发和维护。\n\n3. **专业支持**：闭源模式让我们能够提供专业的技术支持和及时的安全更新。\n\n4. **知识产权保护**：保护我们独有的安全算法优化和用户体验设计。\n\n5. **质量控制**：统一的开发和测试流程确保软件的稳定性和安全性。\n\n我们理解开源社区的价值，但对于安全工具而言，专业化的闭源开发能更好地保障用户的数据安全。"
       },
       {
         "id": "encryption-algorithm",
         "category": "security",
         "question": "使用什么加密算法？",
-        "answer": "SecureVault 使用军事级 AES-256 加密算法，这是目前业界公认最安全的对称加密标准。同时配合 PBKDF2 密钥派生函数和随机盐值，确保即使相同的文件也会产生不同的加密结果。"
+        "answer": "私密抽屉 使用军事级 AES-256 加密算法，这是目前业界公认最安全的对称加密标准。同时配合 PBKDF2 密钥派生函数和随机盐值，确保即使相同的文件也会产生不同的加密结果。"
       },
       {
         "id": "password-security",
         "category": "security",
         "question": "如果忘记密码怎么办？",
-        "answer": "出于安全考虑，SecureVault 不会存储您的密码，也无法帮您恢复。我们建议：\n\n• 使用强密码但易于记忆的组合\n• 将密码安全地记录在密码管理器中\n• 定期备份重要文件的未加密版本\n\n这种设计确保了即使是我们也无法访问您的加密数据。"
+        "answer": "出于安全考虑，私密抽屉 不会存储您的密码，也无法帮您恢复。我们建议：\n\n• 使用强密码但易于记忆的组合\n• 将密码安全地记录在密码管理器中\n• 定期备份重要文件的未加密版本\n\n这种设计确保了即使是我们也无法访问您的加密数据。"
       },
       {
         "id": "system-requirements",
         "category": "technical",
         "question": "系统要求是什么？",
-        "answer": "SecureVault 支持：\n\n• macOS 11.0 (Big Sur) 及更高版本\n• 至少 100MB 可用存储空间\n• Intel 或 Apple Silicon 处理器\n\n我们持续优化性能，确保在各种 Mac 设备上都能流畅运行。"
+        "answer": "私密抽屉 支持：\n\n• macOS 11.0 (Big Sur) 及更高版本\n• 至少 100MB 可用存储空间\n• Intel 或 Apple Silicon 处理器\n\n我们持续优化性能，确保在各种 Mac 设备上都能流畅运行。"
       },
       {
         "id": "file-size-limit",
         "category": "technical",
         "question": "支持多大的文件？",
-        "answer": "SecureVault 理论上没有文件大小限制，但实际使用中会受到以下因素影响：\n\n• 可用磁盘空间\n• 系统内存大小\n• 文件类型和复杂度\n\n我们已经测试过 GB 级别的文件加密，运行良好。对于超大文件，建议确保有足够的可用空间。"
+        "answer": "私密抽屉 理论上没有文件大小限制，但实际使用中会受到以下因素影响：\n\n• 可用磁盘空间\n• 系统内存大小\n• 文件类型和复杂度\n\n我们已经测试过 GB 级别的文件加密，运行良好。对于超大文件，建议确保有足够的可用空间。"
       },
       {
         "id": "cloud-storage",
@@ -207,7 +207,7 @@
         "id": "performance",
         "category": "technical",
         "question": "加密会影响性能吗？",
-        "answer": "SecureVault 经过深度优化，对系统性能影响极小：\n\n• 使用异步加密处理，不会阻塞界面\n• 智能内存管理，避免内存泄漏\n• 针对 Apple Silicon 进行了特别优化\n• 支持后台处理大文件\n\n大多数操作都能在几秒内完成。"
+        "answer": "私密抽屉 经过深度优化，对系统性能影响极小：\n\n• 使用异步加密处理，不会阻塞界面\n• 智能内存管理，避免内存泄漏\n• 针对 Apple Silicon 进行了特别优化\n• 支持后台处理大文件\n\n大多数操作都能在几秒内完成。"
       },
       {
         "id": "data-backup",
@@ -231,7 +231,7 @@
         "id": "pricing",
         "category": "business",
         "question": "价格策略是什么？",
-        "answer": "SecureVault 采用一次性购买模式：\n\n• **个人版**：￥99，终身使用\n• **专业版**：￥199，包含高级功能\n• **免费试用**：30天全功能体验\n\n没有订阅费用，买断后永久使用，包含免费的安全更新。"
+        "answer": "私密抽屉 采用一次性购买模式：\n\n• **个人版**：￥99，终身使用\n• **专业版**：￥199，包含高级功能\n• **免费试用**：30天全功能体验\n\n没有订阅费用，买断后永久使用，包含免费的安全更新。"
       },
       {
         "id": "enterprise",
@@ -243,7 +243,7 @@
         "id": "competitor-comparison",
         "category": "general",
         "question": "与其他加密软件相比有何优势？",
-        "answer": "SecureVault 的独特优势：\n\n• **原生 macOS 设计**：完美融入系统，性能优异\n• **直观用户界面**：无需学习复杂操作\n• **快速加密**：针对 Apple Silicon 优化\n• **安全可靠**：专业团队开发，持续维护\n• **本地化支持**：完整的中文界面和文档\n\n我们专注于为 Mac 用户提供最佳的加密体验。"
+        "answer": "私密抽屉 的独特优势：\n\n• **原生 macOS 设计**：完美融入系统，性能优异\n• **直观用户界面**：无需学习复杂操作\n• **快速加密**：针对 Apple Silicon 优化\n• **安全可靠**：专业团队开发，持续维护\n• **本地化支持**：完整的中文界面和文档\n\n我们专注于为 Mac 用户提供最佳的加密体验。"
       },
       {
         "id": "privacy-policy",

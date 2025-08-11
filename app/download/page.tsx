@@ -31,9 +31,9 @@ export default function DownloadPage() {
   const downloadOptions = [
     {
       title: 'GitHub Releases',
-      description: '从官方SecureVault仓库下载最新版本',
+      description: '从官方PrivateDrawer仓库下载最新版本',
       icon: Github,
-      url: 'https://github.com/jiayuqi7813/SecureVault/releases/',
+      url: 'https://github.com/jiayuqi7813/PrivateDrawer/releases/',
       primary: true,
       benefits: [
         '最新版本v1.0.1',
@@ -46,7 +46,7 @@ export default function DownloadPage() {
       title: '直接下载',
       description: '直接下载预编译的应用程序',
       icon: Download,
-      url: 'https://github.com/jiayuqi7813/SecureVault/releases/latest',
+      url: 'https://github.com/jiayuqi7813/PrivateDrawer/releases/latest',
       primary: false,
       benefits: [
         '支持Intel和Apple Silicon',
@@ -73,13 +73,13 @@ export default function DownloadPage() {
     {
       step: 3,
       title: '拖拽安装',
-      description: '将SecureVault应用拖拽到应用程序文件夹中。',
+      description: '将PrivateDrawer应用拖拽到应用程序文件夹中。',
       icon: Apple
     },
     {
       step: 4,
       title: '首次启动',
-      description: '在应用程序文件夹中找到SecureVault，双击启动并完成初始设置。',
+      description: '在应用程序文件夹中找到PrivateDrawer，双击启动并完成初始设置。',
       icon: Zap
     }
   ]
@@ -113,7 +113,7 @@ export default function DownloadPage() {
             <h1 className="text-4xl sm:text-6xl font-bold text-gray-900 dark:text-white mb-6">
               下载
               <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
-                SecureVault
+                PrivateDrawer
               </span>
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-300 mb-8 leading-relaxed">
@@ -397,7 +397,7 @@ export default function DownloadPage() {
                   "应用已损坏，无法打开" 错误
                 </h4>
                 <p className="text-amber-800 dark:text-amber-200 text-sm">
-                  在终端中运行：<code className="bg-amber-200 dark:bg-amber-800 px-2 py-1 rounded">sudo xattr -rd com.apple.quarantine /Applications/SecureVault.app</code>
+                  在终端中运行：<code className="bg-amber-200 dark:bg-amber-800 px-2 py-1 rounded">sudo xattr -rd com.apple.quarantine /Applications/PrivateDrawer.app</code>
                 </p>
               </div>
               

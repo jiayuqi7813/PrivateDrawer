@@ -55,7 +55,7 @@ export default function Header() {
             <div className="w-10 h-10 rounded-xl overflow-hidden">
               <Image 
                 src="/AppIcon-1024.png"
-                alt="SecureVault Logo"
+                alt="PrivateDrawer Logo"
                 width={40}
                 height={40}
                 className="w-full h-full object-cover"
@@ -98,7 +98,7 @@ export default function Header() {
             </div>
             
             <motion.a
-              href="https://github.com/jiayuqi7813/SecureVault/releases/"
+              href="https://github.com/jiayuqi7813/PrivateDrawer/releases/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors"
@@ -121,7 +121,7 @@ export default function Header() {
             </motion.a>
             
             <motion.a
-              href="https://github.com/jiayuqi7813/SecureVault/releases/"
+              href="https://github.com/jiayuqi7813/PrivateDrawer/releases/"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white px-6 py-2 rounded-lg font-medium shadow-lg hover:shadow-xl transition-all duration-300 flex items-center space-x-2"
@@ -190,7 +190,7 @@ export default function Header() {
               </motion.a>
               
               <motion.a
-                href="https://github.com/jiayuqi7813/SecureVault/releases/"
+                href="https://github.com/jiayuqi7813/PrivateDrawer/releases/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white px-6 py-3 rounded-lg font-medium shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center space-x-2"
