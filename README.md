@@ -39,6 +39,15 @@ PrivateDrawer（私密抽屉）是一款专为 macOS 设计的专业文件加密
 3. 将应用拖拽到 Applications 文件夹
 4. 首次启动时允许系统权限
 
+### 常见安装问题
+如果遇到 **"应用已损坏，无法打开"** 错误，请在终端中运行以下命令：
+
+```bash
+sudo xattr -rd com.apple.quarantine /Applications/PrivateDrawer.app
+```
+
+这是由于 macOS 的安全机制对未签名应用的限制，运行上述命令后即可正常使用。
+
 ## 🎯 使用场景
 
 - **个人隐私**: 私人照片、日记、敏感文档
