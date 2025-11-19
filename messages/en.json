@@ -13,6 +13,7 @@
     "titleHighlight": "Private Files",
     "subtitle": "PrivateDrawer uses AES-256 military-grade encryption to provide professional private folder and file security protection for macOS users. Support for Touch ID / Face ID makes security simple and elegant.",
     "downloadBtn": "Free Download",
+    "appStoreBtn": "Download on App Store",
     "demoBtn": "Watch Demo"
   },
   "stats": {
@@ -132,6 +133,7 @@
     "title": "Start Protecting Your Private Files",
     "subtitle": "Join over 50,000 users' trusted choice and experience the most secure file management",
     "downloadBtn": "macOS Download",
+    "appStoreBtn": "Download on App Store",
     "githubBtn": "View Details", 
     "requirements": "System Requirements: macOS 14.0 or higher • Commercial Product • Professional Support"
   },

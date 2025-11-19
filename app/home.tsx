@@ -20,7 +20,8 @@ import {
   Award,
   ChevronRight,
   Play,
-  AlertCircle
+  AlertCircle,
+  Apple
 } from 'lucide-react'
 import { useLanguage } from '@/contexts/LanguageContext'
 import Header from './components/Header'
@@ -198,6 +199,17 @@ export default function Home() {
               >
                 <Download className="w-5 h-5 mr-2" />
                 {t('hero.downloadBtn')}
+                <ChevronRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
+              </a>
+              
+              <a 
+                href="https://apps.apple.com/cn/app/privatedrawer%E7%A7%81%E5%AF%86%E6%96%87%E4%BB%B6%E5%A4%B9/id6755291346?mt=12"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group bg-white/90 dark:bg-gray-800/90 backdrop-blur text-gray-900 dark:text-white px-8 py-4 rounded-xl font-semibold text-lg border-2 border-gray-300 dark:border-gray-600 hover:bg-white dark:hover:bg-gray-800 hover:border-blue-500 dark:hover:border-blue-400 transition-all duration-300 flex items-center shadow-lg hover:shadow-xl"
+              >
+                <Apple className="w-5 h-5 mr-2" />
+                {t('hero.appStoreBtn')}
                 <ChevronRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
               </a>
               
@@ -517,10 +529,20 @@ export default function Home() {
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <a 
-                href="https://github.com/jiayuqi7813/PrivateDrawer/releases/"
+                href="https://apps.apple.com/cn/app/privatedrawer%E7%A7%81%E5%AF%86%E6%96%87%E4%BB%B6%E5%A4%B9/id6755291346?mt=12"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-white hover:bg-gray-50 text-blue-600 px-8 py-4 rounded-xl font-semibold text-lg shadow-lg hover:shadow-xl transition-all duration-300 flex items-center"
+              >
+                <Apple className="w-5 h-5 mr-2" />
+                {t('cta.appStoreBtn')}
+              </a>
+              
+              <a 
+                href="https://github.com/jiayuqi7813/PrivateDrawer/releases/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-white/20 backdrop-blur hover:bg-white/30 text-white px-8 py-4 rounded-xl font-semibold text-lg border border-white/30 transition-all duration-300 flex items-center"
               >
                 <Download className="w-5 h-5 mr-2" />
                 {t('cta.downloadBtn')}

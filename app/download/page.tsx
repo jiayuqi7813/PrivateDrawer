@@ -30,11 +30,24 @@ export default function DownloadPage() {
 
   const downloadOptions = [
     {
+      title: 'App Store',
+      description: '从 Mac App Store 下载，享受官方认证和自动更新',
+      icon: Apple,
+      url: 'https://apps.apple.com/cn/app/privatedrawer%E7%A7%81%E5%AF%86%E6%96%87%E4%BB%B6%E5%A4%B9/id6755291346?mt=12',
+      primary: true,
+      benefits: [
+        '官方 App Store 认证',
+        '自动更新和版本管理',
+        '安全可靠，经过 Apple 审核',
+        '一键安装，无需手动配置'
+      ]
+    },
+    {
       title: 'GitHub Releases',
       description: '从官方PrivateDrawer仓库下载最新版本',
       icon: Github,
       url: 'https://github.com/jiayuqi7813/PrivateDrawer/releases/',
-      primary: true,
+      primary: false,
       benefits: [
         '最新版本v1.0.1',
         '完整的版本历史和更新日志',

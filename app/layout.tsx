@@ -7,6 +7,7 @@ import { Analytics } from '@vercel/analytics/next'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://securevault.snowywar.top'),
   title: 'PrivateDrawer - macOS 私密文件夹与文件加密管理应用',
   description: 'PrivateDrawer是一款专为macOS设计的私密文件夹和文件加密管理应用，采用AES-256军用级加密，支持Touch ID/Face ID，为您的重要文件提供银行级安全保护。',
   keywords: ['macOS', '私密文件夹', 'mac 私密文件夹', '文件加密', 'AES-256', 'Touch ID', 'Face ID', '文件管理', '安全存储', '隐私保护', 'PrivateDrawer'],
@@ -15,12 +16,12 @@ export const metadata: Metadata = {
   publisher: 'PrivateDrawer',
   robots: 'index, follow',
   alternates: {
-    canonical: 'https://private-drawer.vercel.app',
+    canonical: 'https://securevault.snowywar.top',
   },
   openGraph: {
     type: 'website',
     locale: 'zh_CN',
-    url: 'https://private-drawer.vercel.app',
+    url: 'https://securevault.snowywar.top',
     title: 'PrivateDrawer - macOS 私密文件夹与文件加密管理应用',
     description: 'PrivateDrawer是一款专为macOS设计的私密文件夹和文件加密管理应用，采用AES-256军用级加密，支持Touch ID/Face ID，为您的重要文件提供银行级安全保护。',
     siteName: 'PrivateDrawer',
@@ -66,7 +67,7 @@ export default function RootLayout({
               "name": "PrivateDrawer",
               "alternateName": "PrivateDrawer macOS",
               "description": "PrivateDrawer是一款专为macOS设计的私密文件夹和文件加密管理应用，采用AES-256军用级加密，支持Touch ID/Face ID，为您的重要文件提供银行级安全保护。",
-              "url": "https://private-drawer.vercel.app",
+              "url": "https://securevault.snowywar.top",
               "applicationCategory": "SecurityApplication",
               "operatingSystem": "macOS",
               "downloadUrl": "https://github.com/jiayuqi7813/PrivateDrawer/releases",
@@ -80,7 +81,7 @@ export default function RootLayout({
               "publisher": {
                 "@type": "Organization",
                 "name": "PrivateDrawer",
-                "url": "https://private-drawer.vercel.app"
+                "url": "https://securevault.snowywar.top"
               },
               "aggregateRating": {
                 "@type": "AggregateRating",
@@ -101,13 +102,13 @@ export default function RootLayout({
               ],
               "requirements": "macOS 14.0 或更高版本",
               "screenshot": [
-                "https://private-drawer.vercel.app/iShot_2025-08-07_19.14.02.png",
-                "https://private-drawer.vercel.app/iShot_2025-08-07_19.14.13.png",
-                "https://private-drawer.vercel.app/iShot_2025-08-07_19.14.52.png",
-                "https://private-drawer.vercel.app/iShot_2025-08-07_19.15.23.png"
+                "https://securevault.snowywar.top/iShot_2025-08-07_19.14.02.png",
+                "https://securevault.snowywar.top/iShot_2025-08-07_19.14.13.png",
+                "https://securevault.snowywar.top/iShot_2025-08-07_19.14.52.png",
+                "https://securevault.snowywar.top/iShot_2025-08-07_19.15.23.png"
               ],
-              "image": "https://private-drawer.vercel.app/AppIcon-1024.png",
-              "logo": "https://private-drawer.vercel.app/AppIcon-1024.png"
+              "image": "https://securevault.snowywar.top/AppIcon-1024.png",
+              "logo": "https://securevault.snowywar.top/AppIcon-1024.png"
             })
           }}
         />

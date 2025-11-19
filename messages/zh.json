@@ -13,6 +13,7 @@
     "titleHighlight": "私密文件",
     "subtitle": "私密抽屉采用 AES-256 军用级加密，为 macOS 用户提供专业级私密文件夹和文件安全保护。支持 Touch ID / Face ID，让安全变得简单优雅。",
     "downloadBtn": "免费下载",
+    "appStoreBtn": "App Store 下载",
     "demoBtn": "观看演示"
   },
   "stats": {
@@ -132,6 +133,7 @@
     "title": "开始保护您的私密文件",
     "subtitle": "加入超过50,000名用户的信任选择，体验最安全的文件管理方式",
     "downloadBtn": "macOS 下载",
+    "appStoreBtn": "App Store 下载",
     "githubBtn": "查看详情",
     "requirements": "系统要求：macOS 14.0 或更高版本 • 商业产品 • 专业支持"
   },
